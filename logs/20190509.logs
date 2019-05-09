@@ -1,0 +1,8 @@
+2019-05-09 11:27:02,731 ThinkModel.py[line:254] INFO select * from zxyl_user LIMIT 1
+2019-05-09 11:27:02,732 ThinkModel.py[line:265] ERROR Traceback (most recent call last):
+  File "C:/Users/mi/Desktop/mywork/ThinkModel/ThinkModel.py", line 257, in find
+    self.execute(sql)
+  File "C:/Users/mi/Desktop/mywork/ThinkModel/ThinkModel.py", line 300, in execute
+    self.cursor.execute(sql)
+AttributeError: 'model' object has no attribute 'cursor'
+
